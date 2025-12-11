@@ -4,26 +4,16 @@
 #include "lanes.h"
 
 int main() {
-    LightState light = RED;
     LaneSystem lanes;
-
     initLanes(&lanes);
 
-    printf("Traffic Light Simulator Started\n");
+    // simulate vehicles in A2
+    for (int i = 0; i < 12; i++)
+        enqueue(&lanes.A2, i);
 
-    // Demo: add some vehicles
-    enqueue(&lanes.A, 101);
-    enqueue(&lanes.B, 202);
+    updatePriority(&lanes);
 
-    printf("Front of lane A: %d\n", peek(&lanes.A));
-    printf("Front of lane B: %d\n", peek(&lanes.B));
-
-    // Cycle lights
-    for (int i = 0; i < 5; i++) {
-        printf("Current Light: %d\n", light);
-        changeLight(&light);
-    }
+    printf("Priority status: %d\n", lanes.priorityActive);
 
     return 0;
 }
-
