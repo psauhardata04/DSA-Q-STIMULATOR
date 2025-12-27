@@ -15,7 +15,7 @@ The system manages vehicle flow using queue data structures at a four-way inters
 **Collision Avoidance**: Maintains 100-pixel minimum separation between vehicles
 **Performance Optimized**: Smooth 60 FPS rendering
 
-## 📊 Data Structures
+## Data Structures
 
 | Structure | Implementation | Purpose |
 |-----------|----------------|---------|
@@ -34,7 +34,7 @@ The system manages vehicle flow using queue data structures at a four-way inters
 - **main.c**: Application entry point, SDL initialization, main event loop
 - **traffic_simulation.c**: Queue operations, vehicle logic, collision detection, rendering
 - **traffic_simulation.h**: Data structures, function declarations, constants
-## ⚙️ Algorithm Design
+##  Algorithm Design
 
 ### Main Processing Flow
 ```
@@ -59,7 +59,7 @@ The system manages vehicle flow using queue data structures at a four-way inters
 | Collision Check | O(n) | Check same lane |
 | **Overall** | **O(n)** | n = active vehicles |
 
-## 🚀 Installation and Setup
+##  Installation and Setup
 
 ### Prerequisites
 - C++ Compiler (GCC or MinGW)
