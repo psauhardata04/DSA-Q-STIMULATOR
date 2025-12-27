@@ -1,19 +1,19 @@
- 🚦 DSA Queue Simulator
+ DSA Queue Simulator
 ## Four-Way Junction Traffic Management System
 This project implements a queue-based traffic management simulation for a four-way junction, developed as part of the Data Structure and Algorithms (COMP202) course.
 
+https://github.com/psauhardata04/DSA-Q-STIMULATOR/blob/3a5b924f17051d85318bb0c052197004a80deb74/traffic_simulation.gif
 
-
-## 📋 Project Overview
+## Project Overview
 The system manages vehicle flow using queue data structures at a four-way intersection. Traffic control is achieved through dynamic signal adjustment based on queue occupancy and vehicle turn intentions.
 
 ### Key Features
-- 🚗 **Queue-based Traffic Management**: Each lane maintains its own FIFO queue for systematic vehicle processing
-- 🔄 **Left Turn Functionality**: 15% of vehicles execute smooth left turns at the intersection
-- 🚨 **Intelligent Traffic Signals**: Left-turning vehicles can proceed on red; straight vehicles must stop
-- 🎨 **Real-time Visualization**: SDL2-powered graphics with pastel-colored vehicles on green background
-- 📊 **Collision Avoidance**: Maintains 100-pixel minimum separation between vehicles
-- 🖥️ **Performance Optimized**: Smooth 60 FPS rendering
+ **Queue-based Traffic Management**: Each lane maintains its own FIFO queue for systematic vehicle processing
+ **Left Turn Functionality**: 15% of vehicles execute smooth left turns at the intersection
+**Intelligent Traffic Signals**: Left-turning vehicles can proceed on red; straight vehicles must stop
+**Real-time Visualization**: SDL2-powered graphics with pastel-colored vehicles on green background
+**Collision Avoidance**: Maintains 100-pixel minimum separation between vehicles
+**Performance Optimized**: Smooth 60 FPS rendering
 
 ## 📊 Data Structures
 
@@ -21,7 +21,7 @@ The system manages vehicle flow using queue data structures at a four-way inters
 |-----------|----------------|---------|
 | Queue | Array-based | Storing vehicles in each lane |
 | Priority Queue | Modified queue with dynamic priority | Managing high-priority lanes |
-## 🏗️ System Architecture
+## System Architecture
 
 ### Traffic Management Rules
 1. **Signal Control**: Traffic lights alternate every 5 seconds between North-South and East-West
@@ -81,7 +81,7 @@ pacman -S mingw-w64-x86_64-SDL2
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/dsa-queue-simulator.git
+git clone https://github.com/psauhardata04/dsa-queue-simulator.git
 cd dsa-queue-simulator
 
 # Compile the generator and Compile the simulator
