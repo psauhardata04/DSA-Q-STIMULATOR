@@ -2,7 +2,8 @@
 ## Four-Way Junction Traffic Management System
 This project implements a queue-based traffic management simulation for a four-way junction, developed as part of the Data Structure and Algorithms (COMP202) course.
 
-https://github.com/psauhardata04/DSA-Q-STIMULATOR.git
+![20251227-0951-00 7143217](https://github.com/user-attachments/assets/f7e7ab32-ffb7-42fb-964c-bf4bcf4c2055)
+
 
 ## Project Overview
 The system manages vehicle flow using queue data structures at a four-way intersection. Traffic control is achieved through dynamic signal adjustment based on queue occupancy and vehicle turn intentions.
